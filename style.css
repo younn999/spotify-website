@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+/* 상단 */
+header {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding: 28px 17px;
+}
+
+header a:hover {
+  color: #1ed760;
+}
+
+header span {
+  padding: 28px 17px;
+}
+
+/* 메인 */
+main {
+  height: 968px;
+  background-color: rgb(41, 65, 171);
+  background-image: url("https://www-growth.scdn.co/static/home/bursts.svg");
+  background-size: 175%;
+  background-position: 46% 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline {
+  font-size: 146px;
+  color: #1ed760;
+  font-weight: 900;
+  position: relative;
+  left: 225px;
+  padding-bottom: 40px;
+  line-height: 166px;
+}
+
+.h-first {
+  position: relative;
+  left: -2.5em;
+}
+
+.sub-headline {
+  color: #1ed760;
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.button-area {
+  text-align: center;
+}
+
+.button-area button {
+  padding: 14px 32px;
+  background-color: #1ed760;
+  border-radius: 500px;
+  font-size: inherit;
+  color: #2941ab;
+  font-weight: 700;
+  border: none;
+}
+
+.button-area button:hover {
+  transform: scale(1.07);
+  background-color: #2de26d;
+}
+
+/* 하단 */
+footer {
+  height: 530px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  width: 100%;
+  max-width: 1170px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+/* 하단 첫번째 줄 */
+.first-line {
+  display: flex;
+  justify-content: space-around;
+  height: 346px;
+}
+
+/* 메뉴 영역 */
+.first-box {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 15px;
+}
+
+.column-title {
+  color: #919496;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+
+.column-item {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding-top: 3px;
+  padding-bottom: 15px;
+}
+
+.column-item:hover {
+  color: #1ed760;
+}
+
+/* SNS 영역 */
+.second-box {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon-box {
+  background-color: #222322;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+  font-size: 24px;
+}
+
+.icon-box:hover {
+  color: #2de26d;
+  cursor: pointer;
+}
+
+/* 하단 두번째 줄 */
+.second-line {
+  color: #919496;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* 하단 세번째 줄 */
+.third-line {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  color: #919496;
+}
+
+.third-line a {
+  text-decoration: none;
+  color: #919496;
+  margin-right: 24px;
+}
+
+.third-line a:hover {
+  color: #1ed760;
+}
